@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Earning Game: Deposit & Withdraw Done55 via JazzCash Easypaisa</title>
+  
+  <!-- Meta Tags for SEO & Indexing -->
+  <meta name="description" content="Learn how to deposit and withdraw money on Done55, the top online earning game in Pakistan, using JazzCash and Easypaisa. Simple guide with tips.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://done55-game.vercel.app/">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Online Earning Game: Deposit & Withdraw Done55 via JazzCash Easypaisa">
+  <meta property="og:description" content="Complete guide for Done55 deposits and withdrawals using JazzCash and Easypaisa. Simple steps, tips, and FAQs for Pakistan users.">
+  <meta property="og:url" content="https://done55-game.vercel.app/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Font & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f8faff;
+      color: #1a2639;
+      line-height: 1.7;
+      padding: 20px;
+      animation: fadeInBody 0.8s ease-in;
+    }
+
+    @keyframes fadeInBody {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: white;
+      padding: 30px 35px 50px;
+      border-radius: 32px;
+      box-shadow: 0 20px 50px rgba(0, 20, 50, 0.08);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .container:hover {
+      box-shadow: 0 30px 60px rgba(0, 30, 70, 0.12);
+    }
+
+    /* Logo + header */
+    .brand-header {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 28px;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #eef3fc;
+      padding-bottom: 20px;
+    }
+
+    .logo-wrapper {
+      flex-shrink: 0;
+    }
+
+    .logo-wrapper img {
+      height: 60px;
+      width: auto;
+      max-width: 180px;
+      object-fit: contain;
+      transition: transform 0.25s ease;
+      display: block;
+    }
+
+    .logo-wrapper img:hover {
+      transform: scale(1.04);
+    }
+
+    .brand-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: #0b1e3a;
+      background: linear-gradient(145deg, #1a3a6b, #2b4f8e);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .brand-title i {
+      -webkit-text-fill-color: #f5b042;
+      margin-right: 6px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.2;
+      margin: 10px 0 12px;
+      color: #0b1e3a;
+    }
+
+    h1 .highlight {
+      background: linear-gradient(120deg, #f5b042 0%, #f5b042 40%, transparent 80%);
+      padding: 0 6px 0 0;
+      display: inline-block;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      font-weight: 600;
+      margin: 36px 0 14px;
+      color: #14305a;
+      border-left: 5px solid #f5b042;
+      padding-left: 18px;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin: 28px 0 8px;
+      color: #1f3b66;
+    }
+
+    p {
+      margin-bottom: 18px;
+      font-size: 1.05rem;
+      color: #25344f;
+    }
+
+    a {
+      color: #1f4b8a;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s, border-bottom 0.2s;
+      border-bottom: 1px dotted transparent;
+    }
+
+    a:hover {
+      color: #f5b042;
+      border-bottom: 1px dotted #f5b042;
+    }
+
+    .btn-link {
+      display: inline-block;
+      background: #f5b042;
+      color: #0b1e3a;
+      padding: 2px 14px;
+      border-radius: 40px;
+      font-weight: 600;
+      border-bottom: none;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .btn-link:hover {
+      background: #e09e30;
+      color: #0b1e3a;
+      transform: translateY(-2px);
+      border-bottom: none;
+    }
+
+    ul, ol {
+      margin: 12px 0 22px 28px;
+    }
+
+    li {
+      margin-bottom: 10px;
+      font-size: 1.03rem;
+    }
+
+    .stat-box {
+      background: #f0f6ff;
+      border-radius: 20px;
+      padding: 20px 28px;
+      margin: 30px 0;
+      border-left: 6px solid #f5b042;
+      transition: background 0.3s;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+    }
+
+    .stat-box:hover {
+      background: #eaf2ff;
+    }
+
+    .stat-box p {
+      margin-bottom: 4px;
+    }
+
+    .stat-box strong {
+      color: #0b2b55;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 25px 0 30px;
+      font-size: 0.98rem;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 14px rgba(0, 20, 40, 0.04);
+    }
+
+    th {
+      background: #1a3a6b;
+      color: white;
+      font-weight: 600;
+      padding: 14px 12px;
+      text-align: left;
+    }
+
+    td {
+      background: #fafcff;
+      padding: 14px 12px;
+      border-bottom: 1px solid #e3ecfa;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    .faq-item {
+      background: #f9fcff;
+      padding: 18px 24px;
+      border-radius: 18px;
+      margin: 18px 0;
+      border: 1px solid #e4eefa;
+      transition: all 0.2s;
+    }
+
+    .faq-item:hover {
+      background: #f2f8ff;
+      border-color: #c6d9f5;
+    }
+
+    .faq-item strong {
+      display: inline-block;
+      min-width: 80px;
+      color: #1a3a6b;
+    }
+
+    .footer-note {
+      margin-top: 45px;
+      padding-top: 25px;
+      border-top: 2px dashed #dce6f5;
+      font-size: 0.95rem;
+      color: #3b4e6b;
+      text-align: center;
+    }
+
+    .icon-list i {
+      color: #f5b042;
+      width: 28px;
+      font-size: 1.1rem;
+    }
+
+    /* responsive */
+    @media (max-width: 600px) {
+      body { padding: 10px; }
+      .container { padding: 18px 16px 35px; }
+      h1 { font-size: 1.6rem; }
+      h2 { font-size: 1.3rem; }
+      .brand-header { flex-direction: column; align-items: flex-start; gap: 6px; }
+      .brand-title { font-size: 1.3rem; }
+      ul, ol { margin-left: 18px; }
+      .stat-box { padding: 16px; }
+    }
+
+    /* animation for number / subtle */
+    .fade-up {
+      animation: fadeUp 0.7s ease forwards;
+      opacity: 0;
+    }
+
+    @keyframes fadeUp {
+      0% { opacity: 0; transform: translateY(18px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .delay-1 { animation-delay: 0.1s; }
+    .delay-2 { animation-delay: 0.2s; }
+    .delay-3 { animation-delay: 0.3s; }
+
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Brand Header with Logo -->
+  <div class="brand-header">
+    <div class="logo-wrapper">
+        <img src="https://done55.org.pk/wp-content/uploads/2026/02/cropped-Done-55-logo.webp" alt="Done55 logo - online earning game">
+    </div>
+  </div>
+
+  <!-- Article Title -->
+  <h1 class="fade-up delay-1">
+    <span class="highlight">Online Earning Game |</span> Deposit & Withdraw Money on Done55 Using JazzCash & Easypaisa
+  </h1>
+
+  <!-- ====== INTRO ====== -->
+  <p class="fade-up delay-2">
+    <a href="https://done55.org.pk/">Online earning game</a> platforms are booming in Pakistan, and Done55 has become one of the most trusted names. 
+    This <strong>online earning game</strong> lets you play, earn, and cash out using local mobile wallets. 
+    Whether you're a student, a freelancer, or just looking for a side income, Done55 makes it easy to deposit and withdraw money using <strong>JazzCash</strong> and <strong>Easypaisa</strong>.
+  </p>
+
+  <p>
+    In this guide, we’ll walk you through every step – from creating your account to withdrawing your first Rs 100. 
+    We'll also share safety tips, compare JazzCash vs Easypaisa, and answer the most common questions. 
+    All in simple, clear English.
+  </p>
+
+  <!-- ====== SECTION 1 ====== -->
+  <h2>What is Done55? The Online Earning Game</h2>
+  <p>
+    Done55 is a mobile gaming platform designed for Pakistani users. It’s not just a game – it’s an <strong>online earning game</strong> that rewards you for playing. 
+    You can earn points, complete tasks, and convert them into real money. 
+    The best part? You don’t need a bank account. Just a JazzCash or Easypaisa wallet.
+  </p>
+
+  <div class="stat-box fade-up delay-3">
+    <p><i class="fas fa-users" style="color:#f5b042; margin-right:10px;"></i> <strong>JazzCash:</strong> 21 million monthly active users</p>
+    <p><i class="fas fa-users" style="color:#f5b042; margin-right:10px;"></i> <strong>Easypaisa:</strong> nearly 18 million monthly active users</p>
+    <p><i class="fas fa-store-alt" style="color:#f5b042; margin-right:10px;"></i> Both have over 80,000 agents across Pakistan <span style="font-size:0.9rem; color:#3b5a7a;">(Source: industry reports, 2025)</span></p>
+  </div>
+
+  <p>
+    With such wide reach, these wallets make Done55 a top <strong>online earning game</strong> for anyone with a mobile phone.
+  </p>
+
+  <!-- ====== SECTION 2 ====== -->
+  <h2>Why Choose Done55?</h2>
+  <ul class="icon-list">
+    <li><i class="fas fa-check-circle"></i> Simple interface – easy for beginners</li>
+    <li><i class="fas fa-wallet"></i> Direct support for JazzCash & Easypaisa</li>
+    <li><i class="fas fa-rupee-sign"></i> Minimum withdrawal only Rs 100</li>
+    <li><i class="fas fa-trophy"></i> Multiple games and daily bonuses</li>
+    <li><i class="fas fa-user-plus"></i> Referral rewards for inviting friends</li>
+  </ul>
+
+  <!-- ====== SECTION 3 ====== -->
+  <h2>How to Deposit Money Using JazzCash & Easypaisa</h2>
+  <p>Adding funds to your Done55 wallet is quick. Follow these steps:</p>
+  <ol>
+    <li><strong>Open the Done55 app</strong> and log in.</li>
+    <li>Go to the <strong>Wallet</strong> section (usually on the main dashboard).</li>
+    <li>Tap <strong>“Deposit”</strong> or <strong>“Add Money”</strong>.</li>
+    <li>Select your payment method: <strong>JazzCash</strong> or <strong>Easypaisa</strong>.</li>
+    <li>Enter the amount (ensure your wallet has sufficient balance).</li>
+    <li>Confirm and approve the transaction – you’ll receive an OTP.</li>
+    <li>Your Done55 balance updates instantly.</li>
+  </ol>
+  <p><i class="fas fa-lightbulb" style="color:#f5b042;"></i> <strong>Tip:</strong> Always use your own registered mobile number for both Done55 and your wallet.</p>
+
+  <!-- ====== SECTION 4 ====== -->
+  <h2>How to Withdraw Money Using JazzCash & Easypaisa</h2>
+  <p>Cashing out your winnings is just as easy. The minimum withdrawal is <strong>Rs 100</strong>.</p>
+  <ol>
+    <li>Log in and go to <strong>Wallet</strong>.</li>
+    <li>Select <strong>“Withdraw”</strong> or <strong>“Cash Out”</strong>.</li>
+    <li>Choose your wallet: JazzCash or Easypaisa.</li>
+    <li>Enter the amount (Rs 100 or more).</li>
+    <li>Confirm your registered mobile number.</li>
+    <li>Submit the request – money usually arrives within <strong>24 to 48 hours</strong>.</li>
+  </ol>
+  <p><i class="fas fa-clock" style="color:#f5b042;"></i> Some withdrawals are processed in 1–4 hours, but allow up to 48 hours during peak times.</p>
+
+  <!-- ====== COMPARISON TABLE ====== -->
+  <h2>JazzCash vs. Easypaisa: Which One to Use?</h2>
+  <table>
+    <thead><tr><th>Feature</th><th>JazzCash</th><th>Easypaisa</th></tr></thead>
+    <tbody>
+      <tr><td>Monthly active users</td><td>21 million</td><td>18 million</td></tr>
+      <tr><td>Best for</td><td>Rural areas & freelancers</td><td>Urban users & bill payments</td></tr>
+      <tr><td>App experience</td><td>Functional, improving</td><td>Smooth, beginner-friendly</td></tr>
+      <tr><td>Agents across PK</td><td>80,000+</td><td>80,000+</td></tr>
+    </tbody>
+  </table>
+  <p><strong>Verdict:</strong> If you live in a smaller city, JazzCash often has better reach. If you want an ultra-smooth app, choose Easypaisa.</p>
+
+  <!-- ====== PROBLEMS & TIPS ====== -->
+  <h2>Common Withdrawal Issues & Fixes</h2>
+  <ul>
+    <li><strong>Account mismatch:</strong> Ensure your Done55 name matches your wallet registration.</li>
+    <li><strong>Unverified account:</strong> Complete your CNIC verification in Done55.</li>
+    <li><strong>Below minimum:</strong> Keep at least Rs 100 in your balance.</li>
+    <li><strong>Wrong payment details:</strong> Double-check your mobile number before confirming.</li>
+  </ul>
+
+  <!-- ====== SAFETY ====== -->
+  <h2>Safety Tips for Your Online Earning Game</h2>
+  <ul>
+    <li><i class="fas fa-shield-alt" style="color:#f5b042;"></i> Use <strong>only your own</strong> JazzCash or Easypaisa account.</li>
+    <li><i class="fas fa-lock" style="color:#f5b042;"></i> Never share your OTP with anyone.</li>
+    <li><i class="fas fa-wifi" style="color:#f5b042;"></i> Avoid public Wi-Fi for transactions – use mobile data or trusted network.</li>
+    <li><i class="fas fa-download" style="color:#f5b042;"></i> Download the official Done55 app from verified sources.</li>
+    <li><i class="fas fa-camera" style="color:#f5b042;"></i> Keep screenshots of your deposit/withdrawal requests.</li>
+  </ul>
+
+  <!-- ====== EARN MORE ====== -->
+  <h2>How to Earn More on Done55</h2>
+  <ul>
+    <li><strong>Play skill-based games:</strong> Higher rewards for better performance.</li>
+    <li><strong>Daily login bonuses:</strong> Claim free rewards every day.</li>
+    <li><strong>Referral program:</strong> Earn daily, weekly, and monthly bonuses by inviting friends.</li>
+    <li><strong>Cashback offers:</strong> Some games offer cashback on losses.</li>
+  </ul>
+
+  <!-- ====== STATISTICS ====== -->
+  <h2>Online Gaming in Pakistan – Statistics</h2>
+  <div class="stat-box">
+    <p><i class="fas fa-chart-line" style="color:#f5b042; margin-right:10px;"></i> <strong>JazzCash</strong> serves 21 million monthly active users.</p>
+    <p><i class="fas fa-chart-line" style="color:#f5b042; margin-right:10px;"></i> <strong>Easypaisa</strong> has nearly 18 million monthly active users.</p>
+    <p><i class="fas fa-store" style="color:#f5b042; margin-right:10px;"></i> Over 80,000 agents across Pakistan support both wallets.</p>
+    <p style="margin-top:10px; font-size:0.95rem; color:#2a4b77;">Source: Telecom & financial reports, 2025</p>
+  </div>
+
+  <!-- ====== FAQ ====== -->
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-item"><strong>Q:</strong> Can I withdraw Rs 100 from Done55? <br><strong>A:</strong> Yes, Rs 100 is the minimum withdrawal.</div>
+  <div class="faq-item"><strong>Q:</strong> How long does a withdrawal take? <br><strong>A:</strong> Usually 24–48 hours, sometimes faster.</div>
+  <div class="faq-item"><strong>Q:</strong> Do I need a bank account? <br><strong>A:</strong> No, just a JazzCash or Easypaisa account.</div>
+  <div class="faq-item"><strong>Q:</strong> What if my withdrawal is rejected? <br><strong>A:</strong> Check your details and contact Done55 support.</div>
+  <div class="faq-item"><strong>Q:</strong> Is Done55 available on iOS? <br><strong>A:</strong> Primarily for Android, check the official site.</div>
+
+  <!-- ====== FINAL ====== -->
+  <h2>Final Thoughts</h2>
+  <p>
+    Done55 is a reliable <strong>online earning game</strong> for Pakistani users. With JazzCash and Easypaisa integration, depositing and withdrawing is simple and secure. 
+    Whether you're playing for fun or aiming to earn, this platform offers a fair chance to make money from your mobile.
+  </p>
+  <p>
+    Always follow safety practices, keep your details accurate, and enjoy the game responsibly. 
+    Start your journey with Done55 today – and remember, the minimum withdrawal is just Rs 100!
+  </p>
+
+  <!-- Footer with canonical reference & done55.org.pk link (already placed in intro) -->
+  <div class="footer-note">
+    <p><i class="fas fa-check-circle" style="color:#f5b042;"></i> Visit official Done55: <a href="https://done55-game.vercel.app/">done55.org.pk</a> &nbsp;|&nbsp; 
+    <i class="fas fa-arrow-right" style="color:#f5b042;"></i> This guide is for informational purposes. Always verify latest app updates.</p>
+  </div>
+
+</div>
+<!-- container end -->
+</body>
+</html>
